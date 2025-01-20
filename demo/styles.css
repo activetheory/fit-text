@@ -1,0 +1,50 @@
+#test1 {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0px 1px red;
+
+  .el {
+    font-size: 100px;
+  }
+}
+
+#test2 {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0px 1px blue;
+
+  .el {
+    font-size: 100px;
+  }
+}
+
+#test3 {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0px 1px green;
+
+  .el {
+    font-size: 100px;
+  }
+}
+
+#test4 {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0px 1px yellow;
+
+  .el {
+    font-size: 100px;
+    line-height: 1;
+  }
+}
+
+#test5 {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0px 1px orange;
+
+  .el {
+    font-size: 25px;
+  }
+}

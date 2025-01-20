@@ -1,0 +1,66 @@
+{
+  "name": "@activetheory/fit-text",
+  "version": "0.0.0",
+  "description": "Fit text to a container, a precise width or height, or fit to a single line and trim the overflow",
+  "main": "./src/index.js",
+  "exports": {
+    ".": {
+      "default": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "format": "prettier --write --ignore-unknown",
+    "publish": "npm run format && npm run test",
+    "release": "release-it",
+    "prepare": "husky"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "author": {
+    "name": "Active Theory",
+    "email": "hello@activetheory.net",
+    "url": "https://activetheory.net"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/activetheory/fit-text.git"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "endOfLine": "lf",
+    "htmlWhitespaceSensitivity": "css",
+    "printWidth": 200,
+    "quoteProps": "as-needed",
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "useTabs": false
+  },
+  "devDependencies": {
+    "happy-dom": "^16.6.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.1",
+    "prettier": "^3.4.2",
+    "release-it": "^18.1.1",
+    "vite": "^6.0.9"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": false
+    }
+  },
+  "lint-staged": {
+    "**/*": [
+      "npm run format"
+    ]
+  }
+}
