@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Fit text to a container, a precise width or height, or fit to a single line and trim the overflow",
   "main": "./src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "default": "./src/index.js",
