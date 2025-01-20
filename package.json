@@ -1,6 +1,6 @@
 {
   "name": "@activetheory/fit-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fit text to a container, a precise width or height, or fit to a single line and trim the overflow",
   "main": "./src/index.js",
   "publishConfig": {
