@@ -6,9 +6,9 @@ export type FitTextResult = {
 export type FitTextOptions = {
   el: HTMLElement;
   box?: HTMLElement;
-  maxWidth?: number | null;
-  maxHeight?: number | null;
-  minFontSize?: number;
+  maxWidth?: () => number | number;
+  maxHeight?: () => number | number;
+  minFontSize?: () => number | number;
   debug?: boolean;
   flip?: boolean;
   clipOnly?: boolean;
