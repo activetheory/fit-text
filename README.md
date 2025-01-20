@@ -11,7 +11,7 @@ npm install @activetheory/fit-text
 ## Usage
 
 ```js
-import { fitText } from '@activetheory/fit-text';
+import fitText from '@activetheory/fit-text';
 
 const el = document.querySelector('.el');
 const box = document.querySelector('.box');
