@@ -15,7 +15,7 @@
   "types": "./src/index.d.ts",
   "scripts": {
     "dev": "vite demo",
-    "demo:build": "vite build --outDir ../dist --emptyOutDir ./demo",
+    "demo:build": "vite build --outDir ../dist --emptyOutDir --base ./ ./demo/",
     "format": "prettier --write --ignore-unknown",
     "release": "release-it",
     "prepare": "husky"
