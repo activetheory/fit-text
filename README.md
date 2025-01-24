@@ -2,6 +2,8 @@
 
 Fit text to a container, a precise width or height, or fit to a single line and trim the overflow.
 
+[Demo](https://activetheory.github.io/fit-text/)
+
 ## Installation
 
 ```bash
