@@ -1,3 +1,5 @@
 demo
 .husky
 .vscode
+.github
+eslint.config.js
