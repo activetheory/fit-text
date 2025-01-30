@@ -8,8 +8,8 @@
   },
   "exports": {
     ".": {
-      "default": "./src/index.js",
-      "types": "./src/index.d.ts"
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
     }
   },
   "types": "./src/index.d.ts",
